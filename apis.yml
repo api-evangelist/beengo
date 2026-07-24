@@ -1,19 +1,46 @@
 aid: beengo
 name: Beengo
-description: Beengo is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Beengo operates as Appfront (appfront.ai), an all-in-one restaurant engagement
+  and eCommerce platform backed by 500 Global. The platform gives restaurants branded online
+  ordering, dine-in scan-and-pay, loyalty and CRM, SMS/push/email marketing campaigns, gift
+  cards and payments, branded native iOS/Android apps, and data analytics. It integrates with
+  major point-of-sale systems (Toast, Revel, SpeedLine, Square, Clover, PAR/Brink, Oracle
+  Hospitality MICROS, NCR) and third-party delivery (DoorDash, Postmates). No public developer
+  program, OpenAPI, or API documentation is published at this time; this profile captures the
+  company identity, web properties, and probed domain security posture.
 url: https://raw.githubusercontent.com/api-evangelist/beengo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-developer-program
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/5cb630f9fd5890febee16b2c/5d7e685da3db081589377712_256px%20gradient%20logo.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Restaurant
+- Restaurant Engagement
+- Online Ordering
+- Loyalty
+- Point of Sale
+- Food Service
+- eCommerce
+- Marketing
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/beengo-domain-security.yml
 - type: Website
   url: https://appfront.ai
+- type: Integrations
+  url: https://appfront.ai/integrations
+- type: Blog
+  url: https://appfront.ai/blog
+- type: SignUp
+  url: https://portal.appfront.ai/next/onboarding?lp=byo
+- type: Support
+  url: mailto:support@appfront.ai
+- type: TermsOfService
+  url: https://appfront.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://appfront.ai/privacy-policy
+- type: Twitter
+  url: https://twitter.com/appfrontai
+- type: Facebook
+  url: https://www.facebook.com/AppFront/
+- type: Instagram
+  url: https://www.instagram.com/appfront.ai
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
