@@ -27,7 +27,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://cdn.prod.website-files.com/5cb630f9fd5890febee16b2c/5d7e685da3db081589377712_256px%20gradient%20logo.png
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
